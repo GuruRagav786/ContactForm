@@ -22,6 +22,7 @@ body{
     justify-content: space-evenly;
     align-items: center;
     flex-direction: column;
+    background-color: bisque;
 }
 
 .container form{
@@ -71,16 +72,18 @@ body{
     padding: 10px 20px;
     border: none;
     outline: none;
-    background: rgb(0, 119, 255);
+    background: rgb(83, 107, 114);
     color: #FFF;
     font-size: 20px;
     font-weight: bold;
     cursor: pointer;
+    border-radius: 25px;
+
     
 }
 
 .inputBox button:hover{
-    background: rgb(0, 17, 255);
+    background: rgba(68, 196, 235, 0.89);
     transition: all 0.3s ease;
 }
 
