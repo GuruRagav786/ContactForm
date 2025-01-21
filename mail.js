@@ -8,11 +8,9 @@
     messagingSenderId: "338337542954",
     appId: "1:338337542954:web:e293952b9869921c502453"
   };
-
-  // Initialize Firebase
-  const app = initializeApp(firebaseConfig);
 // initialize firebase
 firebase.initializeApp(firebaseConfig);
+
 
 // reference your database
 var contactFormDB = firebase.database().ref("contactForm");
